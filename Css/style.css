@@ -1,0 +1,152 @@
+.team-slider img {
+    filter: grayscale(100%);
+    transition: all .5s ease;
+}
+
+.team-slider img:hover {
+    filter: grayscale(0);
+    transform: rotate(360deg)
+}
+
+/*-----------header------------*/
+header {
+    top: 0;
+    transition: all .5s ease;
+    z-index: 500;
+}
+
+@media (min-width: 992px) {
+    .scroll {
+        background: #212529;
+        transition: all 0.6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+        box-shadow: 2px 2px 20px rgba(0, 0, 0, .15);
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        background: #212529;
+        transition: all .3s ease;
+        box-shadow: 2px 2px 20px rgba(0, 0, 0, .15);
+    }
+}
+
+.navbar-brand.spcolor {
+    color: #fed136 !important;
+}
+
+.navbar-toggler {
+    font-size: 16px;
+    padding: 9px 11px;
+    color: #fff !important;
+    background: #fed136;
+}
+
+.navbar-toggler span {
+    font-size: 11px;
+}
+
+.nav-link:hover {
+    color: #fed136 !important;
+    transition: all 0.5s ease;
+}
+
+/*-----------hreo section-----------*/
+.hero-section {
+    color: #fff;
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .hero-section {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        height: 70vh;
+    }
+}
+
+/*-----------------services-------------------*/
+.services-icon i {
+    width: 125px;
+    height: 125px;
+    padding: 12px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    font-size: 64px;
+    background: #fed136;
+    color: white;
+    border-radius: 50%;
+}
+
+/*------------------portfolio------------------*/
+.portfolio img {
+    width: 100%;
+}
+
+/*------------------our-amazing-team------------------*/
+.our-amazing-team img {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    border: 7px solid rgba(0, 0, 0, .1);
+}
+
+.team-social i {
+    width: 47px;
+    height: 47px;
+    margin: 0 2px;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 25px;
+    background: #000117;
+    color: white;
+    border-radius: 50%;
+}
+
+/*----------------contactus--------------------*/
+.contactus {
+    background-color: #212529;
+    background-image: url(../images/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+textarea.form-control {
+    height: 176px;
+}
+
+/*------------------footer-------------------*/
+.footer-social i {
+    width: 47px;
+    height: 47px;
+    margin: 0 2px;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 25px;
+    background: #000117;
+    color: white;
+    border-radius: 50%;
+}
+
+.f-a {
+    color: #fed136;
+}
+
+.f-a:hover {
+    color: #fed136;
+}
+
+/*-------------------hover----------------------*/
+i:hover {
+    background: #fed136;
+    transition: all 0.5s ease;
+}
